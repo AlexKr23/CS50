@@ -22,7 +22,7 @@ int main(void)
             printf("#");
         }
         //spaces between two pyramids
-        printf("   ");
+        printf("  ");
         //cycle for 2nd pyramid
         for (int l = 0; l < i + 1; l++)
         {
