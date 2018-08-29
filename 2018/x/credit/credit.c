@@ -21,11 +21,12 @@ int main(void)
         {
             cc += ((sum * 2) % 10) + 1;
         }
-        //printf ("%i\n", cc);
+        //eprintf ("%i\n", cc);
         //sum every other digital starting from one
         int sum_one = (c_n % 10);
         cc_one += sum_one;
-        //printf ("%i\n", cc_one);
+        //eprintf ("%i\n", cc_one);
+        //droping last 2 digits so we can move further into credit card number
         c_n = floor(c_n / 100);
     }
     //printf("%i\n", cc);
