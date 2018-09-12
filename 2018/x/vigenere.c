@@ -30,7 +30,7 @@ int main(int argc, string argv[])
         }
         {
             string plain = get_string("plaintext: ");
-            printf("Ciphertext: ");
+            printf("ciphertext: ");
             string key = argv[1];
             for (i = 0, plen = strlen(plain); i < plen; i++) //cycle for plaintext code
             {
