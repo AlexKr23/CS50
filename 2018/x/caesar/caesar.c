@@ -24,10 +24,10 @@ int main(int argc, string argv[])
         //cycle for string length
         for (i = 0, n = strlen(p); i < n; i++)
         {
-            //for upper alpa
+            //for upper alpha
             if ((isupper(p[i])) && (isalpha(p[i])))
             {
-                //if new cipher exceed ASCII code for upper alpa
+                //if new cipher exceed ASCII code for upper alpha
                 //(k % 26) is for when key is higher than 26 (amount of character in english alphabet)
                 if ((p[i] + (k % 26)) > 90)
                 {
